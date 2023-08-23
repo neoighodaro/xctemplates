@@ -77,12 +77,15 @@ cat > $macros_file << EOL
 <plist version="1.0">
 <dict>
     <key>FILEHEADER</key>
-    <string>/**
- * Copyright © [[COMPANY]] - All Rights Reserved
+	<string>/**
+ * ___PRODUCTNAME___
  *
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Written by [[AUTHOR]] &lt;[[EMAIL]]&gt;, 2023
+ * Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+ *
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ *
+ * Created: ___FULLUSERNAME___ @ ___DATE___ ___TIME___
  */</string>
 </dict>
 </plist>
