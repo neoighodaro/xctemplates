@@ -77,7 +77,8 @@ cat > $macros_file << EOL
 <plist version="1.0">
 <dict>
     <key>FILEHEADER</key>
-	<string>/**
+	<string>
+/**
  * ___PRODUCTNAME___
  *
  * Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
@@ -85,8 +86,9 @@ cat > $macros_file << EOL
  * Unauthorized copying of this file, via any medium is strictly prohibited.
  * Proprietary and confidential.
  *
- * Created: ___FULLUSERNAME___ @ ___DATE___ ___TIME___
- */</string>
+ * @author ___FULLUSERNAME___
+ */
+ </string>
 </dict>
 </plist>
 EOL
